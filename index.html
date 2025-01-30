@@ -14,8 +14,8 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            color: Red;
-            background: url('Port.jpg') no-repeat center center/cover;
+            color: White;
+            background: url('Cert.jpg') no-repeat center center/cover;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -33,10 +33,14 @@
             height: 100%;
         }
         .content {
-            position: relative;
+            position: absolute;
             z-index: 1;
+            top: 5%; /* Reduce this value to move text even closer to the top */
+            left: 50%;
+            transform: translateX(-50%);
             max-width: 90%;
-            padding: 20px;
+            padding: 10px;
+}
         }
         h1 {
             font-size: 3em;
@@ -88,7 +92,6 @@
     <div class="overlay"></div>
     <div class="content">
        <h1> Welcome to www.TRIVANDRUMPORT.IN </h1>
-       <p>Your journey to richness starts here !
        <h1> This Premium domain is FREE now !</h1>
         <p class="contact">Email: mummydomains@gmail.com</p>
                      <p class="contact">WhatsApp: +91 83019 51835</p>
